@@ -1,0 +1,30 @@
+.todolist-js,.grid{
+    display: grid;
+    grid-template-columns: 150px 200px 100px;
+row-gap: 15px;
+column-gap: 15px;
+align-items: center;
+}
+.grid{
+    align-items: stretch;
+    margin-bottom: 15px;
+}
+.js-todo{
+    padding: 10px 10px;
+}
+.date-js{
+background-color: gray;
+border: none;
+}
+.del{
+    color:white;
+    background-color: darkred;
+    border: none;
+    cursor: pointer;
+    padding: 10px 10px;
+}
+.ads{
+    color: white;
+    background-color: darkgreen;
+    border: none;
+}
